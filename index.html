@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="assets/styler.css" />
+    <script type="text/javascript" src="assets/script.js"></script>
+
+    <title>Calcule seu IMC!</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://unpkg.com/wingcss"/>
+
+</head>
+<body>
+
+    <div class="container">
+        <h3 class="header">CALCULADORA IMC</h3>
+        <p class="content">Calcule o seu Índice de Massa Corporal</p>
+      
+        <div class="form-calculadora">
+          <form NAME="peso">
+            <p class="text">PESO (kg) :</p>
+            <input type="number" name="input" value=""><br>
+          </form>
+          <form NAME="altura">
+            <p class="text">TAMANHO (cm) :</p>
+            <input type="number" name="input" id="inputaltura" value=""><br>
+          </form>
+          <button onclick="IMC()">Calcule seu IMC!</button>
+          <form class="resultado">
+            <p>Seu IMC é : <div id="MeuIMC"></div></p>
+            <p id="alert"><p>
+          </form>
+        </div>
+
+      </div>
+</body>
+</html>
