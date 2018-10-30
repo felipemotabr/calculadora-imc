@@ -1,2 +1,2 @@
 # CALCULADORA DE IMC (Índice de Massa Corporal)
-Feito somente com puro javascript e aberto para a comunidade.
+Este projeto é uma calculadora IMC feito somente com puro Javascript
