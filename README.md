@@ -1,5 +1,7 @@
 # CALCULADORA DE IMC (Índice de Massa Corporal)
 
+[Demo](https://felipemotabr.github.io/calculadora-imc/)
+
 ![Demo](https://raw.githubusercontent.com/felipemotabr/calculadora-imc/master/calculadora-imc.gif)
 
 Este projeto é uma calculadora IMC feito em Javascript com [Vanilla JS](http://vanilla-js.com)
