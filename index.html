@@ -17,21 +17,17 @@
         <p class="content">Calcule o seu Índice de Massa Corporal</p>
       
         <div class="form-calculadora">
-          <form NAME="peso">
             <p class="text">PESO (kg) :</p>
-            <input type="number" name="input" value=""><br>
-          </form>
-          <form NAME="altura">
+            <input name="peso" id="peso" class="peso" type="number" name="input" value="" maxlength="4"><br>
             <p class="text">ALTURA (cm) :</p>
-            <input type="number" name="input" id="inputaltura" value=""><br>
-          </form>
-          <button onclick="IMC()">Calcule seu IMC!</button>
-          <form class="resultado">
+            <input name="altura" id="altura" class="altura" type="number" name="input" value="" maxlength="3"><br>
+          <button onclick="CALCIMC()">Calcule seu IMC!</button>
+          <div class="resultado">
             <p>Seu IMC é : <div id="MeuIMC"></div></p>
             <p id="alert"><p>
-          </form>
+          </div>
         </div>
 
-      </div>
+    </div>
 </body>
 </html>
