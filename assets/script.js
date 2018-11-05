@@ -1,13 +1,16 @@
-var peso
+var peso 
 var altura
 var imc
 var imcround
 var error = "error";
 
-function IMC() {
+function CALCIMC() {
   try {
-    var peso = document.peso.input.value;
-    var altura = document.altura.input.value;
+    // var peso = document.peso.input.value;
+    // var altura = document.altura.input.value;
+
+    var peso = document.querySelector('#peso').value;
+    var altura = document.querySelector('#altura').value;
   
 
   // ANTIGA FORMULA
@@ -26,9 +29,8 @@ function IMC() {
   imcround= imc.toFixed(2); // ajusta as casas decimais
 
 
-  
   if (peso <=0 || altura <=0) {
-    document.getElementById("IMC").innerHTML = error;
+    document.getElementById("CALCIMC").innerHTML = error;
     throw "Por favor, escolha valores não positivos e positivos.";
   }
 
