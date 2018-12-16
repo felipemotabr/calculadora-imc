@@ -2,7 +2,7 @@
 
 [Demo](https://felipemotabr.github.io/calculadora-imc/)
 
-![Demo](https://raw.githubusercontent.com/felipemotabr/calculadora-imc/master/calculadora-imc.gif)
+![Demo](https://raw.githubusercontent.com/felipemotabr/calculadora-imc/master/screen.gif)
 
 Este projeto é uma calculadora IMC feito em Javascript com [Vanilla JS](http://vanilla-js.com)
 

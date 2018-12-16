@@ -28,3 +28,14 @@ body {
 input[type=number] {
   border: 1px solid #111!important
 }
+.footer {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20%;
+}
+.footer a {
+  color: #000;
+}
+.footer a:hover {
+  text-decoration: none
+}
