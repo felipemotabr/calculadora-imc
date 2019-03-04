@@ -9,3 +9,9 @@ Este projeto é uma calculadora IMC feito em Javascript com [Vanilla JS](http://
 ## Instalação
 
 É só fazer o [download](https://github.com/felipemotabr/calculadora-imc/archive/master.zip) desse repositório. Simples assim.
+
+## Autor
+
+**Felipe Mota**
+- <https://github.com/felipemotabr>
+- <https://twitter.com/felipemotabr>
